@@ -86,7 +86,7 @@ async function uploadResume(file) {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:5000/upload",
+            "https://careerx-ai.onrender.com/upload",
             {
                 method: "POST",
                 body: formData
