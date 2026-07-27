@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#050816,#0b1d3f);
+    color:white;
+    padding:50px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:50px;
+    color:#2cc9ff;
+}
+
+.section{
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:20px;
+    padding:30px;
+    margin-bottom:30px;
+}
+
+.section h2{
+    color:#2cc9ff;
+    margin-bottom:20px;
+    font-size:1.8rem;
+    
+}
+
+
+
+
+.skill-grid,
+.career-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.skill-card{
+    background:#1f6dff;
+    padding:12px 20px;
+    border-radius:30px;
+    font-weight:600;
+    box-shadow:0 0 15px rgba(31,109,255,.5);
+}
+
+.career-card{
+    background:#00bfff;
+    color:#050816;
+    padding:15px 25px;
+    border-radius:15px;
+    font-weight:700;
+    font-size:1.1rem;
+    box-shadow:0 0 20px rgba(0,191,255,.5);
+}
+.missing-card{
+    background:rgba(255,0,0,.15);
+    border:1px solid rgba(255,0,0,.4);
+
+    color:#ff7b7b;
+
+    padding:12px 18px;
+
+    border-radius:12px;
+
+    font-weight:600;
+}
+
+.success-card{
+    background:rgba(0,255,127,.15);
+    border:1px solid rgba(0,255,127,.4);
+
+    color:#00ff99;
+
+    padding:15px 20px;
+
+    border-radius:12px;
+
+    font-weight:700;
+}
+
+
+.home-btn{
+    display:block;
+    width:150px;
+    margin:15px auto;
+    padding:10px 10px;
+
+    text-align:center;
+    text-decoration:none;
+
+    color:white;
+    font-size:1rem;
+    font-weight:600;
+
+    background:linear-gradient(90deg,#1f6dff,#2cc9ff);
+        
+
+
+    border-radius:15px;
+
+    box-shadow:
+    0 0 10px rgba(0,212,255,0.3);
+
+    transition:all 0.3s ease;
+}
+
+.home-btn:hover{
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 0 30px rgba(203, 69, 221, 0.5);
+}
+
+#atsScore{
+    font-size: 2rem;
+    font-weight: 800;
+
+    background: linear-gradient(
+        90deg,
+        #00d4ff,
+        #6a5cff
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.score-card{
+    margin-bottom:30px;
+    padding:20px;
+
+    text-align:center;
+
+    background:rgba(255,255,255,0.08);
+
+    border-radius:20px;
+
+    box-shadow:
+    0 0 0px rgba(0,191,255,.2);
+}
+.roadmap-card{
+    margin-top:20px;
+}
+
+.roadmap-step{
+
+    padding:18px;
+
+    margin-bottom:15px;
+
+    border-radius:15px;
+
+    background:rgba(255,255,255,0.08);
+
+    border-left:5px solid #00e5ff;
+
+    font-size:18px;
+
+    font-weight:500;
+
+    transition:0.3s;
+}
+
+.roadmap-step:hover{
+
+    transform:translateX(8px);
+
+    background:rgba(255,255,255,0.12);
+}
+
+
+@media(max-width:768px){
+
+    body{
+        padding:20px;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    .section{
+        padding:20px;
+    }
+
+    .career-card,
+    .skill-card{
+        width:100%;
+        text-align:center;
+    }
+    .company-section{
+
+margin-top:40px;
+
+}
+
+
+.company-card{
+
+background:rgba(255,255,255,0.1);
+
+backdrop-filter:blur(10px);
+
+border-radius:15px;
+
+padding:20px;
+
+margin:15px;
+
+border:1px solid rgba(255,255,255,0.2);
+
+}
+
+
+
+.company-card h3{
+
+font-size:22px;
+
+}
+
+
+
+.company-card a{
+
+display:inline-block;
+
+margin-top:10px;
+
+padding:10px 15px;
+
+border-radius:8px;
+
+text-decoration:none;
+
+background:#2563eb;
+
+color:white;
+
+}
+    
+
+}
