@@ -1,3 +1,7 @@
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+from werkzeug.utils import secure_filename
+import os
 from pdf_parser import extract_pdf_text
 from docx_parser import extract_docx_text
 from skill_extractor import extract_skills
