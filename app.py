@@ -1,19 +1,13 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
-from werkzeug.utils import secure_filename
-import os
-
-from services.pdf_parser import extract_pdf_text
-from services.docx_parser import extract_docx_text
-from services.skill_extractor import extract_skills
-from services.recommender import recommend_careers
-from services.ats_score import calculate_ats_score
-from services.skill_gap import get_skill_gap
-from services.roadmap import generate_roadmap
-from services.company_recommender import recommend_companies
-from services.course_recommender import recommend_courses
-from services.chatbot import career_chatbot
-
+from pdf_parser import extract_pdf_text
+from docx_parser import extract_docx_text
+from skill_extractor import extract_skills
+from recommender import recommend_careers
+from ats_score import calculate_ats_score
+from skill_gap import get_skill_gap
+from roadmap import generate_roadmap
+from company_recommender import recommend_companies
+from course_recommender import recommend_courses
+from chatbot import career_chatbot
 
 app = Flask(__name__)
 
