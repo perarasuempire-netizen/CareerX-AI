@@ -113,18 +113,19 @@ color:#cfd8e6;
 max-width:900px;
 }
 .upload-btn{
-margin-top:80px;
-background:linear-gradient(90deg, #1f6dff, #2cc9ff);
-border:none;
-padding:20px 40px;
-border-radius:15px;color:white;
-font -size:1.2rem;
-width:95%;
-font-weight:600;cursor:pointer;
-transition:.3s;
-box-shadow:00 25px rgba(0, 191, 255, .4);
+    margin-top:80px;
+    background:linear-gradient(90deg,#1f6dff,#2cc9ff);
+    border:none;
+    padding:20px 40px;
+    border-radius:15px;
+    color:white;
+    font-size:1.2rem;
+    width:95%;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+    box-shadow:0 0 25px rgba(0,191,255,.4);
 }
-
 .upload-btn:hover{
 transform:translateY(-3px);
 }
