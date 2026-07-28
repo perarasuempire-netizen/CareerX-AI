@@ -113,22 +113,13 @@ color:#cfd8e6;
 max-width:900px;
 }
 
+
 .upload-btn{
 .upload-btn{
-    margin-top:40px;
-    background:linear-gradient(90deg,#1f6dff,#2cc9ff);
-    border:none;
-    padding:15px 20px;
-    border-radius:15px;
-    color:white;
-    font-size:1.1rem;
-    width:100%;
-    max-width:350px;
-    box-sizing:border-box;
-    font-weight:600;
-    cursor:pointer;
-    transition:.3s;
-    box-shadow:0 0 25px rgba(0,191,255,.4);
+    margin-top:80px;
+    padding:20px 40px;
+    font-size:1.2rem;
+    width:95%;
 }
 
 .upload-btn:hover{
