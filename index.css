@@ -1,3 +1,5 @@
+
+
 *{
 margin:0;
 padding:0;
@@ -56,6 +58,12 @@ color:#2ea8ff;
 .highlight{
     color: #ac0101;
     font-size: 3rem;
+
+
+    
+    
+    
+}
 }
 .highlight{
     color: #ff6b6b;
@@ -71,17 +79,6 @@ transition:.3s;
 
 .nav-links a:hover{
 color:#2ea8ff;
-}
-.upload-btn{
-margin-top:80px;
-background:linear-gradient(90deg, #1f6dff, #2cc9ff);
-border:none;
-padding:20px 40px;
-border-radius:15px;
-color:white;
-font -size:1.2rem;
-font-weight:600;cursor:pointer;transition:.3s;
-box-shadow:00 25px rgba(0, 191, 255, .4);
 }
 
 .hero{
@@ -114,6 +111,20 @@ font-size:1.3rem;
 line-height:1.8;
 color:#cfd8e6;
 max-width:900px;
+}
+
+.upload-btn{
+margin-top:80px;
+background:linear-gradient(90deg,#1f6dff,#2cc9ff);
+border:none;
+padding:20px 40px;
+border-radius:15px;
+color:white;
+font-size:1.2rem;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+box-shadow:0 0 25px rgba(0,191,255,.4);
 }
 
 .upload-btn:hover{
@@ -190,8 +201,8 @@ font-size:4rem;
 }
 
 .hero-image img{
-width:250px;
-height:250px;
+width:420px;
+height:420px;
 }
 
 }
