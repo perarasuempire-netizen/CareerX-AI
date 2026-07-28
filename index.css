@@ -199,7 +199,9 @@ text-align:center;
 .hero-text h1{
 font-size:4rem;
 }
-
+.upload-box{
+        width:95%;
+}
 .hero-image img{
 width:250px;
 height:250px;
