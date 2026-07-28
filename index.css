@@ -197,12 +197,7 @@ text-align:center;
 .hero-text h1{
 font-size:4rem;
 }
-.upload-btn{
-        width:100%;
-        max-width:300px;
-        margin-top:30px;
-        padding:12px 15px;
-}
+
 .hero-image img{
 width:250px;
 height:250px;
