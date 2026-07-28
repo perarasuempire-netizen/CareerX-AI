@@ -58,12 +58,6 @@ color:#2ea8ff;
 .highlight{
     color: #ac0101;
     font-size: 3rem;
-
-
-    
-    
-    
-
 }
 .highlight{
     color: #ff6b6b;
@@ -79,6 +73,18 @@ transition:.3s;
 
 .nav-links a:hover{
 color:#2ea8ff;
+}
+.upload-btn{
+margin-top:80px;
+background:linear-gradient(90deg, #1f6dff, #2cc9ff);
+border:none;
+padding:20px 40px;
+border-radius:15px;
+color:white;
+font -size:1.2rem;
+width:95%;
+font-weight:600;cursor:pointer;transition:.3s;
+box-shadow:00 25px rgba(0, 191, 255, .4);
 }
 
 .hero{
